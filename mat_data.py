@@ -1,7 +1,9 @@
 #save mat file 
 import os
 import pickle
-train_dir = '/groups/turaga/home/yanj11/data/vae/scdf_sets/4'
+import sys
+
+train_dir = sys.argv[1]
 with open(train_dir + '/data_full.pkl', 'rb') as f:
     data_full = pickle.load(f)
 

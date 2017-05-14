@@ -1,4 +1,4 @@
-clc; clear all; close all
+clc; clear; close all
 addpath('constrained-foopsi-master')
 thr_val = 98;
 
